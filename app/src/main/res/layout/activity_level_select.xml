@@ -1,0 +1,188 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/activity_level_select"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:paddingBottom="@dimen/activity_vertical_margin"
+    android:paddingLeft="@dimen/activity_horizontal_margin"
+    android:paddingRight="@dimen/activity_horizontal_margin"
+    android:paddingTop="@dimen/activity_vertical_margin"
+    tools:context="com.example.michael.spiltmilk.LevelSelectActivity">
+
+    <Button
+        android:text="1-4"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:id="@+id/button13"
+        android:background="@android:color/holo_blue_dark"
+        android:textColor="?android:attr/colorPressedHighlight"
+        android:textSize="@android:dimen/notification_large_icon_height"
+        android:layout_alignParentTop="true"
+        android:layout_alignParentRight="true"
+        android:layout_alignParentEnd="true" />
+
+    <Button
+        android:text="3-4"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:id="@+id/button14"
+        android:background="@android:color/holo_blue_dark"
+        android:textColor="?android:attr/colorPressedHighlight"
+        android:textSize="@android:dimen/notification_large_icon_height"
+        android:layout_alignParentBottom="true"
+        android:layout_alignParentRight="true"
+        android:layout_alignParentEnd="true" />
+
+    <Button
+        android:text="2-2"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:id="@+id/button20"
+        android:background="@android:color/holo_blue_dark"
+        android:textColor="?android:attr/colorPressedHighlight"
+        android:textSize="@android:dimen/notification_large_icon_height"
+        android:layout_centerVertical="true"
+        android:layout_alignLeft="@+id/button17"
+        android:layout_alignStart="@+id/button17" />
+
+    <Button
+        android:text="2-3"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:id="@+id/button21"
+        android:background="@android:color/holo_blue_dark"
+        android:textColor="?android:attr/colorPressedHighlight"
+        android:textSize="@android:dimen/notification_large_icon_height"
+        android:layout_alignBaseline="@+id/button20"
+        android:layout_alignBottom="@+id/button20"
+        android:layout_alignLeft="@+id/button16"
+        android:layout_alignStart="@+id/button16" />
+
+    <Button
+        android:text="2-4"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:id="@+id/button5"
+        android:background="@android:color/holo_blue_dark"
+        android:textColor="?android:attr/colorPressedHighlight"
+        android:textSize="@android:dimen/notification_large_icon_height"
+        android:layout_alignBaseline="@+id/button21"
+        android:layout_alignBottom="@+id/button21"
+        android:layout_alignParentRight="true"
+        android:layout_alignParentEnd="true" />
+
+    <Button
+        android:text="3-3"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:id="@+id/button18"
+        android:background="@android:color/holo_blue_dark"
+        android:textColor="?android:attr/colorPressedHighlight"
+        android:textSize="@android:dimen/notification_large_icon_height"
+        android:layout_alignParentBottom="true"
+        android:layout_alignLeft="@+id/button21"
+        android:layout_alignStart="@+id/button21" />
+
+    <Button
+        android:text="3-2"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:id="@+id/button17"
+        android:background="@android:color/holo_blue_dark"
+        android:textColor="?android:attr/colorPressedHighlight"
+        android:textSize="@android:dimen/notification_large_icon_height"
+        android:layout_alignParentBottom="true"
+        android:layout_alignLeft="@+id/button15"
+        android:layout_alignStart="@+id/button15" />
+
+    <Button
+        android:text="1-2"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:id="@+id/button15"
+        android:background="@android:color/holo_blue_dark"
+        android:textColor="?android:attr/colorPressedHighlight"
+        android:textSize="@android:dimen/notification_large_icon_height"
+        android:layout_alignParentTop="true"
+        android:layout_centerHorizontal="true" />
+
+    <Button
+        android:text="1-3"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:id="@+id/button16"
+        android:background="@android:color/holo_blue_dark"
+        android:textColor="?android:attr/colorPressedHighlight"
+        android:textSize="@android:dimen/notification_large_icon_height"
+        android:layout_alignParentTop="true"
+        android:layout_toLeftOf="@+id/button5"
+        android:layout_toStartOf="@+id/button5"
+        android:layout_marginRight="18dp"
+        android:layout_marginEnd="18dp" />
+
+    <Button
+        android:text="1-1"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:id="@+id/button12"
+        android:background="@android:color/holo_blue_dark"
+        android:textColor="?android:attr/colorPressedHighlight"
+        android:textSize="@android:dimen/notification_large_icon_height"
+        android:layout_alignParentTop="true"
+        android:layout_toLeftOf="@+id/button15"
+        android:layout_toStartOf="@+id/button15"
+        android:layout_marginRight="18dp"
+        android:layout_marginEnd="18dp" />
+
+    <Button
+        android:text="2-1"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:id="@+id/button19"
+        android:background="@android:color/holo_blue_dark"
+        android:textColor="?android:attr/colorPressedHighlight"
+        android:textSize="@android:dimen/notification_large_icon_height"
+        android:layout_alignBaseline="@+id/button20"
+        android:layout_alignBottom="@+id/button20"
+        android:layout_alignLeft="@+id/button12"
+        android:layout_alignStart="@+id/button12" />
+
+    <Button
+        android:text="3-1"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:id="@+id/button9"
+        android:background="@android:color/holo_blue_dark"
+        android:textColor="?android:attr/colorPressedHighlight"
+        android:textSize="@android:dimen/notification_large_icon_height"
+        android:layout_alignParentBottom="true"
+        android:layout_alignLeft="@+id/button19"
+        android:layout_alignStart="@+id/button19" />
+
+    <Button
+        android:text="Back"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:id="@+id/buttonBack"
+        android:background="@android:color/holo_blue_dark"
+        android:textColor="?android:attr/colorPressedHighlight"
+        android:textSize="@dimen/activity_vertical_margin"
+        android:layout_above="@+id/button9"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentStart="true"
+        android:layout_marginBottom="11dp" />
+
+    <Button
+        android:text="Tutorial"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:id="@+id/button23"
+        android:background="@android:color/holo_blue_dark"
+        android:textColor="?android:attr/colorPressedHighlight"
+        android:textSize="@dimen/activity_vertical_margin"
+        android:layout_above="@+id/button19"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentStart="true" />
+
+</RelativeLayout>
